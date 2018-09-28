@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>canvas画板 | niwwen</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="niwwen">
+    <meta name="author" content="li wenwen">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="niwwen" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://go.kieran.top/" class="animsition-link">Kieran</a></li>
+                    
+                    <li><a href="http://domain.com/" class="animsition-link">Name</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">niwwen</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-05-12T02:11:28.000Z" itemprop="datePublished">
+          2018-05-12
+      </time>
+    
+</span>
+                <h1>canvas画板</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<h2 id="一-canvas标签"><a href="#一-canvas标签" class="headerlink" title="一.canvas标签"></a>一.canvas标签</h2><p><strong>1.</strong>canvas标签与img标签相似，但是canvas标签是一个闭合标签，并且没有src alt属性<br><strong>2.</strong>canvas标签有两个属性，width，height。我们在页面上用canvas绘制一个画布时，应用width，height属性设置大小，如果用css设置，绘制图像时可能会出现扭曲。<br><strong>3.</strong>渲染上下文 context<br>canvas起初是空白的。为了展示，首先脚本需要找到渲染上下文，然后在它的上面绘制。<br>getContext()方法可以获取到上下文context.</p>
+<h2 id="二-制作画板"><a href="#二-制作画板" class="headerlink" title="二.制作画板"></a>二.制作画板</h2><p>画板功能：可以绘制不同颜色和粗细的线条，画板上有橡皮擦功能，一键清除功能，下载功能。</p>
+<h3 id="1-首先我们需要绘制一个自适应屏幕宽度的画布。"><a href="#1-首先我们需要绘制一个自适应屏幕宽度的画布。" class="headerlink" title="1.首先我们需要绘制一个自适应屏幕宽度的画布。"></a>1.首先我们需要绘制一个自适应屏幕宽度的画布。</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">function wResize() &#123;</span><br><span class="line">       var pageWidth = document.documentElement.clientWidth</span><br><span class="line">       var pageHeight = document.documentElement.clientHeight</span><br><span class="line"></span><br><span class="line">       canvas.width = pageWidth</span><br><span class="line">       canvas.height = pageHeight</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="2-当用户在画板上绘画时有三种状态，鼠标点击态，鼠标移动态，鼠标离开态。"><a href="#2-当用户在画板上绘画时有三种状态，鼠标点击态，鼠标移动态，鼠标离开态。" class="headerlink" title="2.当用户在画板上绘画时有三种状态，鼠标点击态，鼠标移动态，鼠标离开态。"></a>2.当用户在画板上绘画时有三种状态，鼠标点击态，鼠标移动态，鼠标离开态。</h3><p>我们可以用mousedown,mousemove ,mouseup来监听三种状态。</p>
+<p><strong>当用户点击鼠标时：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">canvas.onmousedown = function (a) &#123;</span><br><span class="line">              var x = a.clientX;</span><br><span class="line">              var y = a.clientY;</span><br><span class="line">              using = true;//设置变量，标志开始使用画布</span><br><span class="line">              if (eraserEnabled) &#123;//如果标志使用橡皮擦，则清除画布内容</span><br><span class="line">                  context.clearRect(x, y, 20, 20);</span><br><span class="line">              &#125;</span><br><span class="line">              else &#123;否则记录当前鼠标坐标</span><br><span class="line">                  lastPoint = &#123;x: x, y: y&#125;</span><br><span class="line">              &#125;</span><br><span class="line">          &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>当用户鼠标移动时：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">canvas.onmousemove = function (a) &#123;</span><br><span class="line">              var x = a.clientX;</span><br><span class="line">              var y = a.clientY;</span><br><span class="line">              if (!using) &#123;return&#125;//判断是否使用画板</span><br><span class="line">              if (eraserEnabled) &#123;//如果标志使用橡皮擦，则清除画布内容</span><br><span class="line">                  context.clearRect(x, y, 20, 20);</span><br><span class="line">              &#125;</span><br><span class="line">              else&#123;//如果没有使用橡皮擦</span><br><span class="line">                  var newPoint = &#123;&quot;x&quot;: x, &quot;y&quot;: y&#125;;//记录鼠标移动到的新坐标</span><br><span class="line">                  drawLine(lastPoint.x, lastPoint.y, newPoint.x, newPoint.y) //绘制线条</span><br><span class="line">                  lastPoint = newPoint;//将当前坐标作为下次移动的首坐标</span><br><span class="line">              &#125;</span><br><span class="line">          &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>当鼠标离开时：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">canvas.onmouseup = function (a) &#123;</span><br><span class="line">              using = false;//设置变量，标志不使用画板</span><br><span class="line">          &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-绘制直线"><a href="#3-绘制直线" class="headerlink" title="3.绘制直线"></a>3.绘制直线</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">function drawLine(x1, y1, x2, y2) &#123;</span><br><span class="line">    context.beginPath();//开始移动笔触，路径开始</span><br><span class="line">    context.moveTo(x1, y1);//其实坐标</span><br><span class="line">    context.lineWidth = lineWidth ;//默认线条粗细</span><br><span class="line">    context.lineTo(x2, y2);//结束坐标</span><br><span class="line">    context.stroke();</span><br><span class="line">    context.closePath();//结束笔触，路径结束</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>stroke()：通过线条来绘制图形轮廓。<br>fill()：通过填充路径的内容区域生成实心的图形</p>
+<h3 id="4-画笔功能"><a href="#4-画笔功能" class="headerlink" title="4.画笔功能"></a>4.画笔功能</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">pen.onclick = function()&#123;</span><br><span class="line">    eraserEnabled = false;//设置变量，标志不使用橡皮擦</span><br><span class="line">    pen.classList.add(&apos;active&apos;);//设置画板上画笔按钮的样式变化</span><br><span class="line">    eraser.classList.remove(&apos;active&apos;);//设置画板上橡皮擦按钮的样式变化</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="5-橡皮擦功能"><a href="#5-橡皮擦功能" class="headerlink" title="5.橡皮擦功能"></a>5.橡皮擦功能</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">eraser.onclick = function()&#123;</span><br><span class="line">    eraserEnabled = true;//标志使用橡皮擦</span><br><span class="line">    eraser.classList.add(&apos;active&apos;);//设置画板上橡皮擦按钮的样式变化</span><br><span class="line">    pen.classList.remove(&apos;active&apos;);//设置画板上画笔按钮的样式变化</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="6-一键清除功能"><a href="#6-一键清除功能" class="headerlink" title="6.一键清除功能"></a>6.一键清除功能</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">clear.onclick = function()&#123;</span><br><span class="line">    context.clearRect(0,0,canvas.width,canvas.height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里使用了clearRect(x, y, width, height)方法，清除指定矩形区域，让清除部分完全透明。x,y坐标为其实坐标，width, height为清除矩形区域的大小。</p>
+<h3 id="7-一键下载功能"><a href="#7-一键下载功能" class="headerlink" title="7.一键下载功能"></a>7.一键下载功能</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">download.onclick = function()&#123;</span><br><span class="line">    var url = canvas.toDataURL(&apos;image/png&apos;);</span><br><span class="line">    var a = document.createElement(&apos;a&apos;);</span><br><span class="line">    document.body.appendChild(a);</span><br><span class="line">    a.href = url;</span><br><span class="line">    a.download = &apos;context&apos;;</span><br><span class="line">    a.click();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>canvas.toDataURL(‘image/png’);该方法返回一个png格式的图片展示的url，当用户点击画板上的下载按钮，在html中插入一个a标签，a.download指向画布的上下文,download 属性规定被下载的超链接目标。</p>
+<h2 id="三-手机适配的画板"><a href="#三-手机适配的画板" class="headerlink" title="三.手机适配的画板"></a>三.手机适配的画板</h2><h3 id="1-添加meta标签"><a href="#1-添加meta标签" class="headerlink" title="1.添加meta标签:"></a>1.添加meta标签:</h3><p>因为浏览器初始会将页面现在手机端显示时进行缩放，因此我们可以在meta标签中设置meta viewport属性，告诉浏览器不将页面进行缩放，页面宽度=用户设备屏幕宽度</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot;&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-移动端监听鼠标事件的方法与pc端不同"><a href="#2-移动端监听鼠标事件的方法与pc端不同" class="headerlink" title="2.移动端监听鼠标事件的方法与pc端不同"></a>2.移动端监听鼠标事件的方法与pc端不同</h3><p><strong>当鼠标点击时用ontouchstart方法监听：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">canvas.ontouchstart = function(a)&#123;</span><br><span class="line"></span><br><span class="line">            var x = a.touches[0].clientX;</span><br><span class="line">            var y =a.touches[0].clientY;</span><br><span class="line">            using = true;</span><br><span class="line">            if (eraserEnabled) &#123;</span><br><span class="line">                context.clearRect(x, y, 20, 20);</span><br><span class="line">            &#125;</span><br><span class="line">            else &#123;</span><br><span class="line">                lastPoint = &#123;x: x, y: y&#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>当鼠标移动是用ontouchmove方法监听：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">canvas.ontouchmove = function(a)&#123;</span><br><span class="line"></span><br><span class="line">           var x = a.touches[0].clientX;</span><br><span class="line">           var y = a.touches[0].clientY;</span><br><span class="line">           if (!using) &#123;return&#125;</span><br><span class="line">           if (eraserEnabled) &#123;</span><br><span class="line">               context.clearRect(x, y, 20, 20);</span><br><span class="line">           &#125;</span><br><span class="line">           else&#123;</span><br><span class="line"></span><br><span class="line">               var newPoint = &#123;&quot;x&quot;: x, &quot;y&quot;: y&#125;;</span><br><span class="line">               drawLine(lastPoint.x, lastPoint.y, newPoint.x, newPoint.y)</span><br><span class="line">               lastPoint = newPoint;</span><br><span class="line"></span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>当鼠标离开时用ontouchend方法监听：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">canvas.ontouchhend = function(a)&#123;</span><br><span class="line"></span><br><span class="line">           using = false;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    
+    <a class="pull-right" href="/2018/04/28/JS的类型/">
+        JS的类型 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By li wenwen. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      (function(){
+        console.log('font');
+        var getCss = function(path) {
+          var head = document.getElementsByTagName('head')[0];
+          link = document.createElement('link');
+          link.href = path;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          head.appendChild(link);
+        };
+        getCss('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+        getCss('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+      })();
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>

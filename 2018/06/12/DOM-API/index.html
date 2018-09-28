@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>DOM-API | niwwen</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="niwwen">
+    <meta name="author" content="li wenwen">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="niwwen" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://go.kieran.top/" class="animsition-link">Kieran</a></li>
+                    
+                    <li><a href="http://domain.com/" class="animsition-link">Name</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">niwwen</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-06-12T12:47:33.000Z" itemprop="datePublished">
+          2018-06-12
+      </time>
+    
+</span>
+                <h1>DOM-API</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<p>总结 + 我认为的重点<br>搜索归纳,以掌握 DOM 基本思想</p>
+<p>DOM 的作用 === 表示 HTML 文档</p>
+<p>DOM提供的 API === 查询,修改 HTML 文档内容</p>
+<p>输入document.documentElement来获得 html 节点</p>
+<p>只有Node.querySelectorAll()返回的数组不是动态的</p>
+<p>scrollHeight返回的是高度</p>
+<p>scrollTop返回的是滚动高度</p>
+<p>对 DOM 的一些理解<br>DOM === 想象的树型结构模型.</p>
+<p>DOM提供的API的作用就是修改或者查看 HTML 代码</p>
+<p>DOM中的O指的是Object,他是在内存中,按照树型结构,通过构造函数(如Node,Element(翻译为标签比较好),Document三个构造函数),构造出对象,将 DOM 展现到内存中</p>
+<p>DOM的D指的是Document,可以认为是 HTML 文档</p>
+<p>DOM的M指的是Model,因为在 HTML结构 在内存中不好用笔表示,所以用一个模型来表示,这个模型就是树型结构</p>
+<p>DOM 树型结构</p>
+<p>未命名文件 (4).png</p>
+<p>上图就是DOM,其中的每个节点(包括矩形节点和椭圆形节点)都是Node类型</p>
+<p>document节点是Document构造函数的一个实例对象,document节点代表了整个文档(整个树型结构</p>
+<p>,我们可以通过直接输入document来获取document节点</p>
+<p>html节点是Element构造函数的一个实例对象,html节点又叫根节点</p>
+<p>我们可以通过输入document.documentElement来获得html节点</p>
+<p>椭圆形的文本节点:”你好,我叫饶家俊” 是Text构造函数的一个实例对象(文本节点是Text构造函数的一个实例对象)</p>
+<p>Node,Element,Text的关系</p>
+<p>未命名文件 (5).png</p>
+<p>DOM的归纳和总结<br>JavaScript将 HTML 文档渲染成 DOM 的树型结构.</p>
+<p>有了树形结构, 第一件事情是什么?当然是获取DOM的节点啦!</p>
+<p>获得节点的方法:</p>
+<p>直接在DOM寻找: document.querySelector(AAAA)和document.querySelectorAll(AAAA)<br>通过节点关系获得节点<br>兄弟关系<br>儿子关系<br>父关系<br>获得节点后,首先你要了解获得的节点是什么吧(比如你要知道节点是什么类型)?</p>
+<p>了解节点:</p>
+<p>Node.nodeName<br>Node.nodeType<br>Node.textContent<br>既然节点可以对应 HTML 文档的标签,那么我可不可以通过 DOM 来处理标签的属性?搜索处理标签属性知道所有属性的处理方法.</p>
+<p>我可以通过 DOM 的 API 修改 DOM 的结构吗?</p>
+<p>创建节点</p>
+<p>document.createElement(“div”)生成Element节点</p>
+<p>document.createTextNode(“你好,我叫饶家俊”)生成Text节点</p>
+<p>通过Node方法将创建的节点拼接到 DOM 中,搜索Node方法</p>
+<p>Node类型的一些属性和方法<br>Node属性<br>节点本身某些特征的属性:<br>Node.nodeName:<br>看着DOM,如果你不确定某个Node节点是什么类型(不确定某个Node节点是矩形还是椭圆形)<br>返回节点类型,重要的返回的值有大写的HTML元素名, #text ,#document<br>Node.nodeType:<br>根据Node类型返回某些数字<br>Element类型,返回的数字是1<br>Text类型,返回的数字是3<br>Document类型,返回的数字的9<br>Node.textContent<br>返回的当前节点及其所有后代的文本内容<br>值得注意的是,因为Node.textContent是Node属性,所以文本节点也是有textContent的<br>innerHTML和innerText是Element的属性,所以TextNode.innerHTML返回的是undefined,注意,并不是返回null<br>节点结构关系属性<br>兄弟关系<br>Node.nextSibling<br>Node.previousSibling<br>儿子关系<br>Node.childNodes<br>Node.firstChild<br>Node.lastChild<br>父关系<br>Node.parentNode<br>上面的所有关系属性都可以获取到Text节点(除了父关系)<br>Node.childNodes是最特殊的,它返回的是一个伪数组,里面是Node节点,并且伪数组内的值是动态变化的<br>Node方法<br>Node.appendChild()</p>
+<p>Node.hasChildNodes()</p>
+<p>Node.cloneNode()</p>
+<p>Node.insertBefore()</p>
+<p>Node.removeChild()</p>
+<p>Node.replaceChild()</p>
+<p>Node.contains()</p>
+<p>Node.isEqualNode()</p>
+<p>Node.isSameNode()</p>
+<p>Node.normalize()</p>
+<p>document节点的一些属性和方法<br>document属性<br>用于指向其他节点(快捷获取某些特殊节点)的属性</p>
+<p>document.documentElement指向 DOM 的 html节点<br>document.activeElement指向获得焦点的那个节点<br>返回文档特定元素的伪数组集合的属性</p>
+<p>document.links<br>document.forms<br>document.images<br>document.embeds<br>等等<br>返回文档信息的属性</p>
+<p>document.location<br>document.readyState返回的是当前文档的状态,<br>等等</p>
+<p>document获取节点方法<br>方法:document.querySelector(AAAA)和document.querySelectorAll(AAAA)</p>
+<p>注意点:</p>
+<p>如果获取标签,那么直接AAAA === “div” 即可<br>第一个返回的是第一个符合CSS选择器AAAA条件的节点<br>第二个返回的是伪数组,里面包含了所有符合选择器的节点<br>第二个返回的结果不是动态的,不会实时反映元素节点的变化<br>这两个方法除了是 document ,还可以是某个 Node 节点<br>其他查找方法不学,没有必要</p>
+<p>document生成节点的方法<br>document.createElement(“div”)生成Element节点<br>document.createTextNode(“你好,我叫饶家俊”)生成Text节点<br>document事件相关的方法<br>待续</p>
+<p>document写入方法<br>待续</p>
+<p>Element节点的一些属性和方法<br>属性<br>Element节点的属性处理</p>
+<p>搜索处理标签属性</p>
+<p>盒模型相关属性</p>
+<p>获得整个页面高度:document.documentElement.scrollHeight</p>
+<p>获得整个浏览器视口的高度document.documentElement.clientHeight // 不包括滚动条</p>
+<p>某个Element距离浏览器视口左上角的坐标</p>
+<p>Element.getBoundingClientRect().left<br>Element.getBoundingClientRect().top<br>某个Element距离整个网页左上角的坐标(,注意和上一个区别)</p>
+<p>Element.getBoundingClientRect().left + document.documentElement.scrollLeft<br>Element.getBoundingClientRect().top + document.documentElement.scrollTop<br>下面的可以不看了,等到遇到问题的时候再看</p>
+<p>容器 === 浏览器的可视区域</p>
+<p>Node.clientHeight,Node.clientWidth</p>
+<p>某个 Element节点: 经过浏览器视口变化,返回节点所占据整个页面的高度和宽度(只有padding,margin和border不是)<br>html节点: 返回浏览器视口宽度和高度<br>Node.clientTop,Node.clientLeft</p>
+<p>返回节点的左边框(border)和上边框(border)的边框宽度<br>Noe.scrollHeight, Node.scrollWidth</p>
+<p>某个Element节点: 经过浏览器视口变化,返回节点所占据整个页面的高度和宽度(只有padding,margin和border不是)<br>html节点: 经过浏览器视口变化,返回整个页面的高度和宽度<br>Node.scrollLeft, Node.scrollTop</p>
+<p>返回向下的滚动条和向右的滚动条滚动的像素<br>Node.offsetHeight, Node.offsetWidth<br>某个 Element节点: 经过浏览器视口变化,返回节点所占据整个页面左上角距离右下角的宽度和高度,并且左上角是包括padding和border<br>html节点: 经过浏览器视口变化,返回整个页面的高度和宽度<br>Node.offsetLeft,Node.offsetTop<br>与父节点之间的宽度和高度???</p>
+<p>处理标签属性<br>最正常,也最麻烦的写法</p>
+<p>增:Node.setAttribute(“属性名”, “属性值”)<br>删: Node.removeAttribute(“属性名”)<br>改: Node.setAttribute(“已经存在属性名”, “新属性值”)<br>查:Node.getAttribute(“属性名”)<br>但是,对于标准属性来说,可以写的简单一点</p>
+<p>增:Node.style = “border: 10xp solid black”<br>删: 无法简写<br>改: Node.style = “border: 10px solid red”<br>查:Node.style<br>对于标准属性的 class 属性来说,因为它实在是太重要了,所以对于class属性也有一套方法:</p>
+<p>首先获得包含所有属性的伪数组Node.classList</p>
+<p>伪数组有以下方法:</p>
+<p>add()：追加一个class。<br>remove()：移除一个class。<br>contains()：检查当前元素是否包含某个class。<br>toggle()：将某个class移入或移出当前元素。<br>item()：返回指定索引位置的class。其实用divTag.classList[1]这样更好<br>toString()：将class的列表转为字符串。</p>
+<p>题目<br>HTML 代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=parent&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>问: parent的值是多少?</p>
+<p>HTMLCollection与NodeList的区别有 答案: AC</p>
+<p>A. HTMLCollection实例对象的成员只能是Element节点，NodeList实例对象的成员可以包含其他节点。</p>
+<p>B. HTMLCollection实例对象都是动态集合，节点的变化会实时反映在集合中。NodeList实例对象都是静态集合。</p>
+<p>C. HTMLCollection实例对象可以用id属性或name属性引用节点元素，NodeList只能使用数字索引引用。</p>
+<p>代码</p>
+<p>var parent1 = document.getElementById(‘parent1’);<br>parent1.childNodes.length // 2<br>parent1.appendChild(document.createElement(‘div’));<br>parent1.childNodes.length // 请问现在 length 是多少  答案是3</p>
+<p>var allDiv = document.querySelectorAll(‘div’)<br>allDiv.length // 假设是 2<br>document.body.appendChild(  document.createElement(‘div’)  )<br>allDiv.length // 请问现在 length 的值是多少？？？    答案是2<br>答案的原因不是什么动态集合与静态集合,而是第一次的代码重新进行一次查询,而第二次的代码并没有重新进行查询,如果想让第二次的答案是3,那么把第二次的最后一句代码删去,并加上allDiv = document.querySelectorAll(‘div’);allDiv.length就行了。</p>
+<p>Node 的接口<br>属性</p>
+<p>childNodes,firstChild,innerText,lastChild,nextSibling,nodeName,nodeType,nodeValue,outerText,ownerDocument,parentElement,parentNode,previousSibling,textContent</p>
+<p>如果记不住就背下以下单词：</p>
+<p>child / children / parent<br>node<br>first / last<br>next / previous<br>sibling / siblings<br>type<br>value / text / content<br>inner / outer<br>element<br>然后互相组合<br>方法（如果一个属性是函数，那么这个属性就也叫做方法；换言之，方法是函数属性）</p>
+<p>appendChild()<br>cloneNode()<br>contains()<br>hasChildNodes()<br>insertBefore()<br>isEqualNode()<br>isSameNode()<br>removeChild()<br>replaceChild()<br>normalize() // 常规化<br>搞清楚英文单词的意思就知道用法<br>如果发现知道英文后依然不明白用法，看 MDN 的例子即可，如 normalize<br>DOM APi 无外乎「增删改查」</p>
+<p>Document 接口<br>属性</p>
+<p>anchors<br>body<br>characterSet<br>childElementCount<br>children<br>doctype<br>documentElement<br>domain<br>fullscreen<br>head<br>hidden<br>images<br>links<br>location<br>onxxxxxxxxx<br>origin<br>plugins<br>readyState<br>referrer<br>scripts<br>scrollingElement<br>styleSheets<br>title<br>visibilityState<br>方法：</p>
+<p>close()<br>createDocumentFragment()<br>createElement()<br>createTextNode()<br>execCommand()<br>exitFullscreen()<br>getElementById()<br>getElementsByClassName()<br>getElementsByName()<br>getElementsByTagName()<br>getSelection()<br>hasFocus()<br>open()<br>querySelector()<br>querySelectorAll()<br>registerElement()<br>write()<br>writeln()<br>Element 的接口<br>DOM API 反人类<br>获取元素<br>以前之后 document.getElementById, document.getElementsByTagName, document.getElementsByClassName<br>太反人类，于是有了 jQuery<br>后来 DOM API 终于抄袭 jQuery 提供了 document.querySelector 和 document.querySelectorAll<br>但是依然没有 jQuery 好用，因为「不一致」</p>
+<p>获取下一个元素</p>
+<p>获取兄弟们</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2018/06/21/实现jquery/" style="float: left;">
+        ← 实现jquery
+    </a>
+    
+    
+    <a class="pull-right" href="/2018/06/05/JS原型/">
+        JS原型 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By li wenwen. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      (function(){
+        console.log('font');
+        var getCss = function(path) {
+          var head = document.getElementsByTagName('head')[0];
+          link = document.createElement('link');
+          link.href = path;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          head.appendChild(link);
+        };
+        getCss('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+        getCss('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+      })();
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>
